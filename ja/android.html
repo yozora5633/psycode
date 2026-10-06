@@ -26,8 +26,8 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid rgba(128,128,128,.3
 <p class="date">最終更新日: 2026年10月6日</p>
 <hr>
 <h2>1. 対応する OS</h2>
-<p class="para">1.　Android 版は，Android 8.0 以上に対応する．</p>
-<p class="para">2.　端末内の翻訳は，Android 12 以上で，OS が英語から日本語への翻訳を提供し，言語データが準備されている端末に限る．対応していない端末でも，原文の閲覧と検索は利用できる．</p>
+<p class="para">1.　Android 版は，Android 8.0 以上及び ARM の64ビット（arm64-v8a）・32ビット（armeabi-v7a）の CPU に対応する．</p>
+<p class="para">2.　Android 版の翻訳は，Android 8.0 以上で Google Translate による ML Kit の端末内翻訳を利用する．初回は取得先（Google），容量（約30 MB）及び本文を送信しない旨を示し，同意した後に言語データを取得する．取得後は通信なしで翻訳できる．本文及び訳文を Google に送信しない．ML Kit の利用状況等の送信については，<a href="privacy.html">プライバシーポリシー</a>による．</p>
 <h2>2. 入手方法</h2>
 <p>準備中．配布の準備が整い次第，本ページに入手方法を掲載する．</p>
 <h2>3. 版の一覧と変更点</h2>
@@ -35,8 +35,8 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid rgba(128,128,128,.3
 <p class="para">2.　初版の主な機能は，次の各号による．</p>
 <p class="item">一　分類の閲覧，検索及び本文のコピー</p>
 <p class="item">二　お気に入り，グループ及び閲覧履歴の保存</p>
-<p class="item">三　対応端末における端末内の翻訳，訳文の保存及び削除</p>
-<p class="item">四　対応端末間の直接移行によるお気に入り及び履歴などの引継ぎ（クラウドへのバックアップは行わず，作成した訳文は移行しない．）</p>
+<p class="item">三　Google Translate による端末内の翻訳，訳文の保存及び削除，言語データの取得及び削除</p>
+<p class="item">四　対応端末間の直接移行によるお気に入り及び履歴などの引継ぎ（クラウドへのバックアップは行わず，作成した訳文及び言語データは移行しない．）</p>
 <h2>4. 新しい版の確認</h2>
 <p>本アプリは，新しい版の有無を自動では確認しない．利用者は，アプリの「このアプリについて」から本ページを開いて確認することができる．</p>
 <h2>詳しくは</h2>
@@ -46,6 +46,7 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid rgba(128,128,128,.3
 <li><a href="guide.html">ご利用にあたって</a></li>
 <li><a href="support.html">お問い合わせ（サポート）</a></li>
 </ul>
+<p><a href="https://cloud.google.com/translate">Google Translate の技術情報</a>及び<a href="https://developers.google.com/ml-kit/language/translation">ML Kit の端末内翻訳</a>．翻訳の免責は<a href="guide.html">ご利用にあたって</a>による．</p>
 <footer><a href="./">PsyCode</a></footer>
 </body>
 </html>
